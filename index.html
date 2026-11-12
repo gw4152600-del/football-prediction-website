@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1769d2">
+  <meta name="description" content="GoalPredict Ug football fixtures and match insights.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <title>GoalPredict Ug</title>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-mark">⚽</div>
+    <div class="brand">GoalPredict <span>Ug</span><small>FOOTBALL INSIGHTS</small></div>
+    <button class="icon-btn" aria-label="Notifications" id="notice">♧</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">FOOTBALL, MADE CLEARER</p>
+      <h1>Make smarter<br>match predictions.</h1>
+      <p class="hero-copy">Fixtures, stats and match insights in one place.</p>
+      <span class="demo-label">DEMO VERSION</span>
+    </section>
+
+    <section class="section-head">
+      <div><h2>Today’s overview</h2><p>Your football dashboard</p></div>
+    </section>
+    <section class="stats">
+      <article><b>—</b><span>Matches</span></article>
+      <article><b>—</b><span>Predictions</span></article>
+      <article><b>—</b><span>Results</span></article>
+    </section>
+
+    <section class="section-head">
+      <div><h2 id="section-title">Featured predictions</h2><p id="section-subtitle">Illustrative examples — not live picks</p></div>
+    </section>
+    <section id="content" class="cards"></section>
+
+    <aside class="warning">
+      <b>ⓘ Demo mode</b>
+      <p>Sample teams and picks are for layout testing only. They are not current fixtures, verified forecasts or betting advice. Football outcomes are uncertain.</p>
+    </aside>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Main navigation">
+    <button class="active" data-tab="Home"><span>⌂</span>Home</button>
+    <button data-tab="Matches"><span>▦</span>Matches</button>
+    <button data-tab="Predictions"><span>◈</span>Predictions</button>
+    <button data-tab="Results"><span>♜</span>Results</button>
+  </nav>
+  <script src="app.js"></script>
+</body>
+</html>
